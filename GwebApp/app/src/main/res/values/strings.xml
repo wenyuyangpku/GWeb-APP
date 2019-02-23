@@ -1,0 +1,198 @@
+<resources>
+    <string name="app_name">GwebApp V0.02</string>
+    <!-- Strings related to login -->
+    <string name="prompt_GWid">GWid</string>
+    <string name="prompt_password">Password (6 digits)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="Gweb1_WWW">https://banweb.gwu.edu/PRODCartridge/twbkwbis.P_WWWLogin</string>
+    <string name="Gweb2_Val">https://banweb.gwu.edu/PRODCartridge/twbkwbis.P_ValLogin</string>
+    <string name="Gweb3_User">https://banweb.gwu.edu/PRODCartridge/twbkwbis.P_GenMenu?name=bmenu.P_MainMnu&amp;msg=WELCOME+%3CI%3E%3Cb%3EWelcome,+Wenyu+Yang,+to+the+WWW+Information+System%21%3C%2Fb%3E%3C%2FI%3E09%2F29%2F1806%3A37+pm</string>
+    <string name="Gweb4_Menu">https://banweb.gwu.edu/PRODCartridge/twbkwbis.P_GenMenu?name=bmenu.P_StuMainMnu</string>
+    <string name="Gweb5_Reg">https://banweb.gwu.edu/PRODCartridge/twbkwbis.P_GenMenu?name=bmenu.P_RegMnu</string>
+    <string name="Gweb6_Detl">https://banweb.gwu.edu/PRODCartridge/bwskfshd.P_CrseSchdDetl</string>
+    <string name="Gweb7_Crs">https://banweb.gwu.edu/PRODCartridge/bwskfreg.P_AddDropCrs</string>
+    <string name="nav_now_playing">Now Courses</string>
+    <string name="nav_upcoming">Add Courses</string>
+    <string name="nav_logout">Logout</string>
+    <string-array name="Subjects">
+        <item>ACA: Academy for Classical Acting</item>
+        <item>ACCY: Accountancy</item>
+        <item>AMST: American Studies</item>
+        <item>ANAT: Anatomy &amp; Regenerative Biology</item>
+        <item>ANES: Anesthesiology</item>
+        <item>ANTH: Anthropology</item>
+        <item>APSC: Applied Science</item>
+        <item>ARAB: Arabic</item>
+        <item>ARTH: Art Therapy</item>
+        <item>AH: Art/Art History</item>
+        <item>FA: Art/Fine Arts</item>
+        <item>ASTR: Astronomy</item>
+        <item>BIOC: Biochemistry</item>
+        <item>BISC: Biological Sciences</item>
+        <item>BME: Biomedical Engineering</item>
+        <item>BMSC: Biomedical Sciences</item>
+        <item>BIOS: Biostatistics</item>
+        <item>BADM: Business Administration</item>
+        <item>CANC: Cancer Biology</item>
+        <item>CHEM: Chemistry</item>
+        <item>CHIN: Chinese</item>
+        <item>CE: Civil Engineering</item>
+        <item>CLAS: Classical Studies</item>
+        <item>CML: Clinical Mgt &amp; Leadership</item>
+        <item>COHM: Clinical Oper &amp; Hlthcare Mgmt</item>
+        <item>CRA: Clinical Research Admin</item>
+        <item>CPS: College/Professional Studies</item>
+        <item>CCAS: Columbian College</item>
+        <item>COMM: Communication</item>
+        <item>CSCI: Computer Science</item>
+        <item>CAH: Corcoran Art History</item>
+        <item>CCR: Corcoran Ceramics</item>
+        <item>CCE: Corcoran Continuing Education</item>
+        <item>CDAD: Corcoran Decorative Art Design</item>
+        <item>CDE: Corcoran Design</item>
+        <item>CDM: Corcoran Digital Media Design</item>
+        <item>CEX: Corcoran Exhibition Design</item>
+        <item>CFA: Corcoran Fine Art</item>
+        <item>CFN: Corcoran First Year Foundation</item>
+        <item>CGD: Corcoran Graphic Design</item>
+        <item>CIXD: Corcoran Interaction Design</item>
+        <item>CPH: Corcoran Photography</item>
+        <item>CPJ: Corcoran Photojournalism</item>
+        <item>CPR: Corcoran Printmaking</item>
+        <item>CNSL: Counseling</item>
+        <item>CPED: Curriculum and Pedagogy</item>
+        <item>DATS: Data Science</item>
+        <item>DNSC: Decision Sciences</item>
+        <item>DERM: Dermatology</item>
+        <item>EALL: East Asian Lang &amp; Lit</item>
+        <item>ECON: Economics</item>
+        <item>EDUC: Educational Leadership</item>
+        <item>ECE: Electrical &amp; Computer Engring</item>
+        <item>EHS: Emergency Health Services</item>
+        <item>EMED: Emergency Medicine</item>
+        <item>ENGL: English</item>
+        <item>EAP: English for Academic Purposes</item>
+        <item>EMSE: Engr Mgt &amp; Systems Engineering</item>
+        <item>ENRP: Environmental Resource Policy</item>
+        <item>EPID: Epidemiology</item>
+        <item>EXNS: Exercise &amp; Nutrition Sciences</item>
+        <item>FILM: Film Studies</item>
+        <item>FINA: Finance</item>
+        <item>FORP: Forensic Psychology</item>
+        <item>FORS: Forensic Sciences</item>
+        <item>FREN: French</item>
+        <item>GTCH: GWTeach</item>
+        <item>GENO: Genomics and Bioinformatics</item>
+        <item>GEOG: Geography</item>
+        <item>GEOL: Geology</item>
+        <item>GER: Germanic Language &amp; Literature</item>
+        <item>GCON: Government Contracts</item>
+        <item>SEHD: Graduate School of Ed &amp; HD</item>
+        <item>GREK: Greek</item>
+        <item>HCQ: Health Care Quality</item>
+        <item>HCS: Health Care Science</item>
+        <item>HSCI: Health Sciences Programs</item>
+        <item>HLWL: Health and Wellness</item>
+        <item>HSML: HealthServicesMgt&amp;Leadership</item>
+        <item>HEBR: Hebrew</item>
+        <item>HIST: History</item>
+        <item>HOMP: Hominid Paleobiology</item>
+        <item>HONR: Honors</item>
+        <item>HDEV: Human Development</item>
+        <item>HOL: Human Organizational Learning</item>
+        <item>HSSJ: Human Services&amp;Social Justice</item>
+        <item>ISTM: InfSystemsTechnologyManagement</item>
+        <item>INFR: Informatics</item>
+        <item>PSIS: Integrated Inf, Sci, and Tech</item>
+        <item>INTM: Integrative Medicine</item>
+        <item>IDIS: Interdisciplinary Courses</item>
+        <item>IA: Interior Architecture</item>
+        <item>IAFF: International Affairs</item>
+        <item>IBUS: International Business</item>
+        <item>ITAL: Italian</item>
+        <item>JAPN: Japanese</item>
+        <item>JSTD: Judaic Studies</item>
+        <item>KOR: Korean</item>
+        <item>LATN: Latin</item>
+        <item>LAW: Law</item>
+        <item>LGAF: Legislative Affairs</item>
+        <item>LSPA: Lifestyle,Sport&amp; Phys Activity</item>
+        <item>MGT: Management</item>
+        <item>MKTG: Marketing</item>
+        <item>MBAD: Master of Business Administrtn</item>
+        <item>MATH: Mathematics</item>
+        <item>MAE: Mechanical &amp; Aerospace Engring</item>
+        <item>MLS: Medical Laboratory Science</item>
+        <item>MED: Medicine</item>
+        <item>MICR: Microbio, Immun &amp; Tropical Med</item>
+        <item>MMED: Molecular Medicine</item>
+        <item>MSTD: Museum Studies</item>
+        <item>MUS: Music</item>
+        <item>NSC: Naval Science</item>
+        <item>NRSC: Neuroscience</item>
+        <item>NURS: Nursing</item>
+        <item>OB&amp;G: Obstetrics &amp; Gynecology</item>
+        <item>OT: Occupational Therapy</item>
+        <item>ORSC: Organizational Sciences</item>
+        <item>PSLX: Paralegal Studies</item>
+        <item>PATH: Pathology</item>
+        <item>PSTD: Peace Studies</item>
+        <item>PED: Pediatrics</item>
+        <item>PERS: Persian</item>
+        <item>PHRG: Pharmacogenomics</item>
+        <item>PHAR: Pharmacology</item>
+        <item>PHIL: Philosophy</item>
+        <item>PT: Physical Therapy</item>
+        <item>PA: Physician Assistant</item>
+        <item>PHYS: Physics</item>
+        <item>PMGT: Political Management</item>
+        <item>PPSY: Political Psychology</item>
+        <item>PSC: Political Science</item>
+        <item>PORT: Portuguese</item>
+        <item>PSCS: Prof Studies - Cybersecurity</item>
+        <item>PSLD: Prof Studies Landscape Design</item>
+        <item>PSLM: Prof Studies Law Firm Mgmt</item>
+        <item>PSPL: Prof Studies in PublicLeadrshp</item>
+        <item>PSHS: Prof Studies-Homeland Security</item>
+        <item>PSPR: Prof Studies-Public Relations</item>
+        <item>PSPB: Prof Studies-Publishing</item>
+        <item>PSHC: ProfStudies HlthCareCorpCompli</item>
+        <item>PSUS: ProfStudiesUrbanSustainability</item>
+        <item>PSYD: Professional Psychology</item>
+        <item>PCHI: Psychiatry &amp; Behavioral Sci</item>
+        <item>PSYC: Psychology</item>
+        <item>PUBH: Public Health</item>
+        <item>PPPA: Public Policy and Public Admin</item>
+        <item>RAD: Radiology</item>
+        <item>RAFF: Regulatory Affairs</item>
+        <item>REL: Religion</item>
+        <item>SEAS: School of Eng &amp; Applied Sci</item>
+        <item>SMPA: School of Media&amp;Public Affairs</item>
+        <item>SLAV: Slavic Languages &amp; Lit</item>
+        <item>SOC: Sociology</item>
+        <item>SPAN: Spanish</item>
+        <item>SPED: Special Education</item>
+        <item>SPHR: Speech, Lang., &amp; Hearing Sci.</item>
+        <item>STAT: Statistics</item>
+        <item>SMPP: Strategic Mgt &amp; Public Policy</item>
+        <item>SURG: Surgery</item>
+        <item>SUST: Sustainability</item>
+        <item>TSAP: Teaching in Sci. &amp; Professions</item>
+        <item>TRDA: Theatre and Dance</item>
+        <item>TSTD: Tourism Studies</item>
+        <item>THS: Translational Health Sciences</item>
+        <item>TURK: Turkish</item>
+        <item>UNIV: University</item>
+        <item>UW: University Writing</item>
+        <item>WLP: Women and Leadership Program</item>
+        <item>WGSS: Womens,Gender&amp;SexualityStudy</item>
+
+    </string-array>
+    <string name="title_activity_select_detial">SelectDetialActivity</string>
+</resources>
